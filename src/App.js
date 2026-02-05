@@ -321,7 +321,7 @@ const ComprehensiveUPIDashboard = () => {
             </div>
 
             {/* Strategic Insights */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 sm:gap-6">
               <InsightBox 
                 type="crisis"
                 title="🚨 THE CRISIS"
