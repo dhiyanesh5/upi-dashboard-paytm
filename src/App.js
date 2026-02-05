@@ -213,7 +213,8 @@ const ComprehensiveUPIDashboard = () => {
     const styles = {
       crisis: 'bg-red-50 border-red-500 text-red-700',
       opportunity: 'bg-blue-50 border-blue-500 text-blue-700',
-      solution: 'bg-green-50 border-green-500 text-green-700'
+      solution: 'bg-green-50 border-green-500 text-green-700',
+      audience: 'bg-purple-50 border-purple-500 text-purple-700'
     };
 
     return (
@@ -342,6 +343,15 @@ const ComprehensiveUPIDashboard = () => {
                 ]}
               />
               <InsightBox 
+                type="audience"
+                title="👥 AUDIENCE OPPORTUNITY"
+                items={[
+                  '44.7% Tier 2 city user base',
+                  'Strong professional segment (32% Faculty)',
+                  'Multi-generational trust needs (18 to 50+ years)'
+                ]}
+              />
+              <InsightBox 
                 type="solution"
                 title="✅ THE SOLUTION"
                 items={[
@@ -357,8 +367,8 @@ const ComprehensiveUPIDashboard = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="bg-white p-4 rounded-lg shadow">
                 <div className="text-xs text-gray-600">Sample Profile</div>
-                <div className="text-lg font-bold text-blue-600">86% aged 18-22</div>
-                <div className="text-xs text-gray-500">Gen Z audience</div>
+                <div className="text-lg font-bold text-blue-600">51% Non-UG Profile</div>
+                <div className="text-xs text-gray-500">Diverse audience including 32% Faculty/Staff</div>
               </div>
               <div className="bg-white p-4 rounded-lg shadow">
                 <div className="text-xs text-gray-600">Transaction Frequency</div>
@@ -685,7 +695,7 @@ const ComprehensiveUPIDashboard = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               <ChartContainer 
                 title="Age Distribution"
-                insight="86% are 18-22 years old - Gen Z audience. Strategy should be mobile-first, social-driven, and trust-focused."
+                insight="Nearly 40% of the audience is over 28 years old, including a significant 23.4% in the 36-50 bracket. This necessitates a balance between Gen-Z-focused UI and professional-grade security for older users."
               >
                 <ResponsiveContainer width="100%" height="100%">
                   <PieChart>
@@ -710,7 +720,7 @@ const ComprehensiveUPIDashboard = () => {
 
               <ChartContainer 
                 title="Occupation Breakdown"
-                insight="86% are students (UG + PG/PhD) - campus influencer strategy and student-focused features could drive viral adoption."
+                insight="Faculty and Staff (31.9%) represent the second-largest user block after UG students. Product features must cater to both high-frequency student micro-payments and stable professional transactions."
               >
                 <ResponsiveContainer width="100%" height="100%">
                   <BarChart data={occupationData}>
@@ -726,7 +736,7 @@ const ComprehensiveUPIDashboard = () => {
 
             <ChartContainer 
               title="Geographic Distribution"
-              insight="76% from Tier 1/2 cities - but 24% from Tier 3/Rural areas validates need for offline UPI and regional language support."
+              insight="Tier 2 cities dominate the sample at 44.7%. This highlights the critical need for robust offline UPI capabilities and merchant-centric features in non-metropolitan hubs."
             >
               <ResponsiveContainer width="100%" height="100%">
                 <BarChart data={locationData} layout="vertical">
