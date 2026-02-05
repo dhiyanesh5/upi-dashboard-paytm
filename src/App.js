@@ -269,7 +269,7 @@ const ComprehensiveUPIDashboard = () => {
             Primary Research: IIT Guwahati Community (N=52)
           </p>
           <p className="text-xs sm:text-sm text-gray-500 mb-3">
-            January 31 - February 1, 2026
+            January 31 - February 3, 2026
           </p>
           <span className="inline-block bg-blue-100 px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-semibold text-blue-800">
             Paytm Project AI - Build for India Initiative
@@ -902,7 +902,7 @@ const ComprehensiveUPIDashboard = () => {
             <strong>Methodology:</strong> Online survey of IIT Guwahati community (students, faculty)
           </p>
           <p className="mb-2">
-            <strong>Sample Size:</strong> N=52 | <strong>Date:</strong> January 31 - February 1, 2026
+            <strong>Sample Size:</strong> N=52 | <strong>Date:</strong> January 31 - February 3, 2026
           </p>
           <p className="text-xs text-gray-500 mt-4">
             Created for Paytm Project AI - Build for India Initiative | Dashboard by Dhiyanesh
