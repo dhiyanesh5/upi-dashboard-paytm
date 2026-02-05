@@ -886,7 +886,7 @@ const ComprehensiveUPIDashboard = () => {
             </ChartContainer>
 
             <div className="bg-white p-6 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold mb-4">🎯 Key Behavioral Insights for GTM</h3>
+              <h3 className="text-xl font-bold mb-4">Key Behavioral Insights for GTM</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="border-l-4 border-green-500 pl-4">
                   <h4 className="font-semibold text-green-700 mb-2">What Works</h4>
