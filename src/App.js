@@ -22,21 +22,26 @@ const ComprehensiveUPIDashboard = () => {
 
   // Demographics
   const ageDistribution = [
-    { age: '18-22', count: 18, percentage: 85.7 },
-    { age: '23-27', count: 3, percentage: 14.3 }
+    { age: '18-22', count: 23, percentage: 48.9 },
+    { age: '23-27', count: 5, percentage: 10.6 },
+    { age: '28-35', count: 3, percentage: 6.4 }, 
+    { age: '36-50', count: 11, percentage: 23.4 },
+    { age: '50+', count: 5, percentage: 10.6 }
   ];
 
   const occupationData = [
-    { occupation: 'Student (UG)', count: 13, percentage: 61.9 },
-    { occupation: 'Student (PG/PhD)', count: 5, percentage: 23.8 },
-    { occupation: 'Working Professional', count: 3, percentage: 14.3 }
+    { occupation: 'Student (UG)', count: 17, percentage: 36.2 },
+    { occupation: 'Faculty/Staff', count: 15, percentage: 31.9 },
+    { occupation: 'Student (PG/PhD)', count: 7, percentage: 14.9 },
+    { occupation: 'Working Professional', count: 6, percentage: 12.8 },
+    { occupation: 'Business/Self-employed', count: 2, percentage: 4.2 }
   ];
 
   const locationData = [
-    { location: 'Tier 1 City', count: 10, percentage: 47.6 },
-    { location: 'Tier 2 City', count: 6, percentage: 28.6 },
-    { location: 'Rural Area', count: 3, percentage: 14.3 },
-    { location: 'Tier 3 City/Town', count: 2, percentage: 9.5 }
+    { location: 'Tier 2 City', count: 21, percentage: 44.7 },
+    { location: 'Tier 1 City', count: 16, percentage: 34.0 },
+    { location: 'Tier 3 City/Town', count: 6, percentage: 12.8 },
+    { location: 'Rural Area', count: 4, percentage: 8.5 }
   ];
 
   const transactionFrequency = [
