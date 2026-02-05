@@ -324,7 +324,7 @@ const ComprehensiveUPIDashboard = () => {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 sm:gap-6">
               <InsightBox 
                 type="crisis"
-                title="🚨 THE CRISIS"
+                title="THE CRISIS"
                 items={[
                   '81% rejected/abandoned Paytm',
                   '25% trust deficit vs Google Pay',
@@ -334,7 +334,7 @@ const ComprehensiveUPIDashboard = () => {
               />
               <InsightBox 
                 type="opportunity"
-                title="🎯 THE OPPORTUNITY"
+                title="THE OPPORTUNITY"
                 items={[
                   '87% fraud-concerned users',
                   '56% would switch for value',
@@ -344,7 +344,7 @@ const ComprehensiveUPIDashboard = () => {
               />
               <InsightBox 
                 type="audience"
-                title="👥 AUDIENCE OPPORTUNITY"
+                title="AUDIENCE OPPORTUNITY"
                 items={[
                   '44.7% Tier 2 city user base',
                   'Strong professional segment (32% Faculty)',
@@ -353,7 +353,7 @@ const ComprehensiveUPIDashboard = () => {
               />
               <InsightBox 
                 type="solution"
-                title="✅ THE SOLUTION"
+                title="THE SOLUTION"
                 items={[
                   'AI Scam Shield (4.50/5)',
                   'Target Google Pay\'s 63.5%',
@@ -570,7 +570,7 @@ const ComprehensiveUPIDashboard = () => {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold mb-4">📋 GTM Priority Recommendations</h3>
+              <h3 className="text-xl font-bold mb-4">GTM Priority Recommendations</h3>
               <div className="space-y-3">
                 {weightedLoyaltyScores.map((item, idx) => (
                   <div key={idx} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
@@ -686,9 +686,9 @@ const ComprehensiveUPIDashboard = () => {
         {activeTab === 'demographics' && (
           <div className="space-y-6">
             <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-lg">
-              <h3 className="font-bold text-blue-800">👥 Sample Characteristics</h3>
+              <h3 className="font-bold text-blue-800">Sample Characteristics</h3>
               <p className="text-sm text-gray-700 mt-2">
-                Predominantly Gen Z (86% aged 18-22), students (86%), from Tier 1/2 cities (76%), making 30+ transactions/month (72%) - heavy digital payment users.
+                Diverse Campus Profile: A balanced mix of Gen Z (48.9% aged 18-22) and established professionals (31.9% Faculty/Staff). Strong presence in Tier 2 cities (44.7%) with a high frequency of 30+ transactions per month (72%).
               </p>
             </div>
 
